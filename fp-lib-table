@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name banana-socket)(type KiCad)(uri /home/wicker/proj/kicad/wickerlib-kicad/footprints/banana-socket.pretty)(options "")(descr ""))
+)

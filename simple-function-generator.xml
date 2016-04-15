@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/wicker/proj/wicker/the-weekly-circuit/drafts/simple-function-generator/simple-function-generator.sch</source>
+    <date>Mon 01 Feb 2016 11:19:53 PM PST</date>
+    <tool>Eeschema 4.0.1-3.201512221402+6198~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>AD9833 Waveform Generator </title>
+        <company>Released under the CERN Open Hardware License v1.2</company>
+        <rev>v1.0</rev>
+        <date>2015-12-27</date>
+        <source>simple-function-generator.sch</source>
+        <comment number="1" value="Contact: jeh.wicker@gmail.com"/>
+        <comment number="2" value="Author: Jenner Hanni"/>
+        <comment number="3" value="Project: The Weekly Circuit"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>AD9833</value>
+      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <libsource lib="wicker-dds" part="AD9833"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567F985C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567F988E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567F98AD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567F998F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567F9E7B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567FA218</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>BNC</value>
+      <footprint>Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads</footprint>
+      <libsource lib="conn" part="BNC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567FA34A</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>TO TEENSY 3.1+</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567FB3CC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567FB63C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567FD227</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567FD27D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567FD1C5</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567F9D07</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>SMA</value>
+      <footprint>Connect:SMB_Straight</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5692B3ED</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>TERMINAL</value>
+      <footprint>Connect:PINHEAD1-2</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5692B5B0</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>CB3-3C-25M0000</value>
+      <footprint>Crystals:Crystal_SMD_0603_4Pads</footprint>
+      <libsource lib="wicker-crystal" part="OSC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567FADBA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="wicker-dds" part="AD9833">
+      <description>10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP20</description>
+      <docs>http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf</docs>
+      <footprints>
+        <fp>TSSOP-20_4.4x6.5mm_Pitch0.65mm</fp>
+        <fp>TSSOP-20</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD9833</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="passive"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="CAP/2.5V" type="passive"/>
+        <pin num="4" name="DGND" type="power_in"/>
+        <pin num="5" name="MCLK" type="input"/>
+        <pin num="6" name="SDATA" type="input"/>
+        <pin num="7" name="SCLK" type="input"/>
+        <pin num="8" name="~FSYNC" type="input"/>
+        <pin num="9" name="AGND" type="power_in"/>
+        <pin num="10" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="BNC">
+      <footprints>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">BNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector 01x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wicker-crystal" part="OSC">
+      <description>Four pin oscillator</description>
+      <footprints>
+        <fp>Crystal_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">OSC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="wicker-crystal">
+      <uri>/home/wicker/proj/kicad/wickerlib-kicad/symbols/wicker-crystal.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/home/wicker/proj/kicad/library-repos/symbols/conn.lib</uri>
+    </library>
+    <library logical="wicker-dds">
+      <uri>/home/wicker/proj/kicad/wickerlib-kicad/symbols/wicker-dds.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/home/wicker/proj/kicad/library-repos/symbols/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad3)">
+      <node ref="U1" pin="5"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="2" name="Net-(P1-Pad5)">
+      <node ref="Q1" pin="1"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="3" name="GNDA">
+      <node ref="C6" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C6-Pad1)">
+      <node ref="U1" pin="10"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C5-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="R4" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="8" name="Net-(P1-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(P1-Pad3)">
+      <node ref="U1" pin="6"/>
+      <node ref="R3" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(P1-Pad4)">
+      <node ref="R4" pin="2"/>
+      <node ref="P1" pin="4"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="11" name="GNDD">
+      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+  </nets>
+</export>
